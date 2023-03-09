@@ -68,10 +68,12 @@
             this.flowLayoutPanel.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
+            this.flowLayoutPanel.AutoScroll = true;
             this.tableLayoutPanel1.SetColumnSpan(this.flowLayoutPanel, 2);
-            this.flowLayoutPanel.Location = new System.Drawing.Point(3, 212);
+            this.flowLayoutPanel.Location = new System.Drawing.Point(0, 209);
+            this.flowLayoutPanel.Margin = new System.Windows.Forms.Padding(0);
             this.flowLayoutPanel.Name = "flowLayoutPanel";
-            this.flowLayoutPanel.Size = new System.Drawing.Size(1972, 529);
+            this.flowLayoutPanel.Size = new System.Drawing.Size(1978, 535);
             this.flowLayoutPanel.TabIndex = 2;
             // 
             // panel1
